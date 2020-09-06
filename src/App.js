@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import NavBar from './components/NavBar'
+import AutoVideoPlayer from './components/AutoVideoPlayer'
 
 class App extends Component{
   constructor() {
@@ -21,7 +22,8 @@ class App extends Component{
             href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
           /> */}
 
-          <NavBar></NavBar>     
+          <NavBar></NavBar>
+          <AutoVideoPlayer></AutoVideoPlayer>          
         </div>
     )
   }
